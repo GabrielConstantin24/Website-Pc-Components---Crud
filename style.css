@@ -1,0 +1,603 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #000000, #343a40); 
+}
+
+/* Navbar */
+
+.navbar {
+    background: linear-gradient(to right, #000000, #343a40);
+    padding: 20px;
+    transition: background 0.5s ease; 
+    z-index: 1000; 
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8;
+}
+
+/* Contact */
+
+.contact-section {
+    color: #ffffff;
+    padding: 80px 0;
+    margin-top: 80px;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+.contact-info img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-info img:hover {
+    transform: scale(1.1);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #cccccc;
+}
+
+/* Banner */
+
+.banner-section {
+    color: #ffffff; 
+    padding: 80px 0; 
+    margin-top: 60px;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-content h1{
+    color: #282a6a;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.banner-content span {
+    color: #fe028e;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-text button {
+    font-size: 30px;
+    background: linear-gradient(to right, #000000, #343a40);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.banner-text button:hover {
+    background: linear-gradient(to right, #343a40, #000000);
+    transform: scale(1.1);
+}
+
+.banner-text button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.banner-image:hover {
+    transform: scale(1.1);
+}
+
+/* Produse */
+
+.product-section {
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.main-txt h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #282a6a;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.main-txt h2 span {
+    color: #fe028e;
+}
+
+.product-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.card {
+    margin: 15px;
+    background: radial-gradient(circle, #343a40, #000000);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+.card,
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+.card-body a {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bestsellers */
+
+.bestsellers-section {
+    padding: 30px;
+}
+
+.bestsellers-section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #282a6a;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.bestsellers-section h2 span {
+    color: #fe028e;
+}
+
+.card {
+    margin: 15px;
+}
+
+.bestsellers-card {
+    background: radial-gradient(circle, #343a40, #000000);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bestsellers-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+.bestsellers-card,
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+.card-body a {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* About */
+
+.about {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #282a6a;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.about span {
+    color: #fe028e;
+}
+
+.about-company {
+    display: flex;
+    max-width: 1200px;
+    text-align: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+.about img {
+    width: 100%;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about img:hover {
+    transform: scale(1.1);
+}
+
+.about-content {
+    margin: 30px;
+}
+
+.about-content h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about-content p{
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.about-content button {
+    font-size: 30px;
+    background: linear-gradient(to right, #000000, #343a40);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-content button:hover {
+    background: linear-gradient(to right, #343a40, #000000);
+    transform: scale(1.1);
+}
+
+/* Testimonials */
+
+.testimonial-section {
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.testimonial-heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.testimonial-heading h2 {
+    color: #282a6a;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.testimonial-heading span {
+    color: #fe028e;
+}
+
+.testimonial-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.testimonial-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-style: italic;
+}
+
+/* Parteneri */
+
+.parteneri-section {
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.parteneri-heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.parteneri-heading h2 {
+    color: #282a6a;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.parteneri-heading span {
+    color: #fe028e;
+}
+
+/* Footer */
+
+.footer {
+    color: #ffffff;
+    background-color: #343a40;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    color: #17a2b8; 
+    
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h4 {
+    font-size: 1.5rem;
+    
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #17a2b8;
+}
+
+/* Media LAPTOPS 1024px */
+
+@media (width <= 1024px) {
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-text button {
+        font-size: 22px;
+    }
+
+    .about-content button {
+        font-size: 22px;
+    }
+
+}
+
+/* Media Tablets 768px */
+
+@media (width <= 768px) {
+    .banner-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-text button {
+        font-size: 18px;
+    }
+
+    .product-card  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bestsellers-card {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .bestsellers-card img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .bestsellers-card,
+    .card-title,
+    .card-text {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .about-company {
+        flex-direction: column;
+    }
+
+    .about img {
+        width: auto;
+        height: auto;
+    }
+
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 0.8rem;
+    }
+
+    .about-content button {
+        font-size: 18px;
+    }
+
+    .testimonial-card {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .testimonial-name {
+        font-size: 1.2rem;
+    }
+
+    .parteneri-section {
+        padding: 40px 0;
+    }
+
+    .footer-logo {
+        font-size: 1.5rem;
+    }
+}
+
+/* Media Mobile 425px */
+
+@media (width <= 425px) {
+    .banner-content h1 {
+        font-size: 1rem;
+    }
+
+    .banner-content p {
+        font-size: 0.8rem;
+    }
+
+    .banner-text button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .banner-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-card  {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bestsellers-card {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .bestsellers-card img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .bestsellers-card,
+    .card-title,
+    .card-text {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .about img {
+        width: auto;
+        height: 250px;
+    }
+
+    .about-content button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .testimonial-section {
+        padding: 40px 0;
+        margin: 10px;
+    }
+
+    .footer-logo {
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .footer-details {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

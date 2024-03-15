@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #000000, #343a40);
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background: linear-gradient(to right, #000000, #343a40);
+    width: 100%;
+    padding: 20px;
+    transition: background 0.5s ease;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8;
+}
+
+.register-container {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.register-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.register-button {
+    background-color: #17a2b8; 
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.register-button:hover {
+    background-color: #007bff;
+}
